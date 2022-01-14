@@ -6,14 +6,16 @@
 
 body{
     background-color: #f6f8f9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 li{
     list-style: none;
+    margin-bottom: 20px;
 }
 .color-principal{
     color: #000000;
     font-size: 60px;
-    font-family: sans-serif;
 }
 
 .small-container{
@@ -35,26 +37,49 @@ li{
 .form-button{
     border-radius: 5px;
     padding: 7px;
+    color: white;
 }
 /* check and nocheck */
-.check{
+.formck{
     border-radius: 100%;
-    border: solid #9ad7c8;
-    color: #9ad7c8;
     font-size: 10px;
     padding: 2px;
 }
+.check{
+    border: solid #9ad7c8;
+    color: #9ad7c8;
+}
+.no-check{
+    border: solid #eb5a53;
+    color:#eb5a53;
+}
 .box{
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 5px;
     font-size: 10px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.list{ 
+    margin-top: 30px;
 }
 /* colors */
 .color-blu{
     background-color: #45abea;
     border: solid #45abea;
-    color: white;
+}
+.color-violet{
+    background-color: #9c72e4;
+    border:solid #9c72e4;
+}
+
+.color-teal{
+    background-color: #64c0a9;
+    border:solid #64c0a9;
+}
+
+.color-orange{
+    background-color:#f29e33 ;
+    border: solid #f29e33;
 }
 
 #button2{
