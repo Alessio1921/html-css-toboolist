@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+.color-principal{
+    color: #000000;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.small-container{
+    margin: 40px auto 3px;
+    width: 80%;
+    padding: 20px;
+}
+
+.big-container{
+    margin:0 auto;
+    width: 80%;
+    height: 600px ;
+}
+
+.background-white{
+    background-color: white;
+}
+.form-button{
+    border-radius: 5px;
+    padding: 7px;
+}
+#button1{
+    background-color: #45abea;
+    color: white;
+    border: solid #45abea;
+}
+
+#button2{
+    border:solid#ccd1d5;
+    color:#ccd1d5;
+}
