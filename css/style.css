@@ -22,13 +22,17 @@ li{
     margin: 40px auto 3px;
     width: 80%;
     padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .big-container{
     margin:0 auto;
     width: 80%;
-    height: 600px ;
+    height: 550px ;
     padding: 40px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .background-white{
@@ -71,17 +75,23 @@ li{
     background-color: #9c72e4;
     border:solid #9c72e4;
 }
-
 .color-teal{
     background-color: #64c0a9;
     border:solid #64c0a9;
 }
-
 .color-orange{
     background-color:#f29e33 ;
     border: solid #f29e33;
 }
-
+.color-pink{
+    background-color: #d863a1;
+    border-color: solid #d863a1;
+}
+.color-green{
+    background-color: #b0c926;
+    border: solid #b0c926;
+}
+/* end colors */
 #button2{
     border:solid#ccd1d5;
     color:#ccd1d5;
